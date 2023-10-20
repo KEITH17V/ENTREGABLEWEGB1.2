@@ -1,0 +1,141 @@
+/*Login*/
+body {
+    font-family: 'Century Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.Login {
+    width: 350px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.LoginMenu label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.LoginMenu input[type="text"],
+.LoginMenu input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.Iniciarboton {
+    width: 100%;
+    background-color: #00fffb;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: 'Century Gothic', sans-serif;
+    
+}
+
+.Iniciarboton:hover {
+    background-color: #2a7a5f;
+    
+
+}
+
+.LoginMenu p {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+/*Menu*/
+.button-container {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100px;
+}
+
+form {
+    display: inline;
+    margin: 0;
+}
+
+.custom-button {
+    background-color: #06ffda;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #048881;
+    transform: scale(1.1);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    color: #4cafa7;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #4208ff;
+}
+
+body {
+    background-image: radial-gradient(circle at 84.91% 50%, #007784 0, #155965 16.67%, #1a3941 33.33%, #13181a 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+    color: #00ffe5;
+    font-family:monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.logo,
+.button-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
